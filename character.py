@@ -1,0 +1,7 @@
+text=input("enter a string:")
+old=input("enter cheracter to replace:")
+new=input("enter two character:")
+result=text.replace(old,new)
+print(result)
+text=input("enter a string:")
+print(text[::-1])
